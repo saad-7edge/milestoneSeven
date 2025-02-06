@@ -1,0 +1,62 @@
+/* Dashboard Content Styling */
+.dashboard {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  /* Table Styling */
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .user-table td{
+    color: black;
+  }
+  
+  .user-table th {
+    background: black;
+    font-weight: bold;
+  }
+  
+  /* Avatar */
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  /* Role Styling */
+  .role {
+    font-weight: bold;
+  }
+  
+  .role.admin {
+    color: red;
+  }
+  
+  .role.user {
+    color: green;
+  }
+  
+  .role.editor {
+    color: blue;
+  }
+  
+  /* Heading */
+  .heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+  }
